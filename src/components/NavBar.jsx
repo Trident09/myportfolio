@@ -18,7 +18,7 @@ const NavBar = () => {
 						<ion-icon className="hover:text-indigo-500" name="aperture"></ion-icon>
 					</span>
 					<Link to="/">
-						<span className="hover:text-indigo-500">Rupam <b className="text-indigo-500">B.</b></span>
+						<span className="flex flex-row gap-1 hover:text-indigo-500">Rupam <b className="text-indigo-500">B.</b></span>
 					</Link>
 				</div>
 				<div

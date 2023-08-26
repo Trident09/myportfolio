@@ -5,7 +5,7 @@ const NavBar = () => {
 	let Links = [
 		{ name: "ABOUT", link: "/about" },
 		{ name: "SERVICE", link: "/services" },
-		{ name: "PORTFOLIO", link: "/portfolio"},
+		{ name: "PORTFOLIO", link: "/portfolio" },
 		{ name: "BLOG", link: "/" }, //external link
 		{ name: "CONTACT", link: "/contact" },
 	];
@@ -15,10 +15,15 @@ const NavBar = () => {
 			<div className="md:flex items-center justify-between bg-black py-4 md:px-10 px-7">
 				<div className="font-normal text-2xl cursor-pointer flex items-center font-[Anton] text-white">
 					<span className="text-3xl text-white mr-1 pt-2">
-						<ion-icon className="hover:text-cyan-500" name="aperture"></ion-icon>
+						<ion-icon
+							className="hover:text-cyan-500"
+							name="aperture"
+						></ion-icon>
 					</span>
 					<Link to="/">
-						<span className="flex flex-row gap-1 hover:text-cyan-300">Rupam <b className="text-cyan-300">B.</b></span>
+						<span className="flex flex-row gap-1 hover:text-cyan-300">
+							Rupam <b className="text-cyan-300">B.</b>
+						</span>
 					</Link>
 				</div>
 				<div

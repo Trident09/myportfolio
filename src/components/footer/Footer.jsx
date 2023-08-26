@@ -10,7 +10,7 @@ const Footer = () => {
         <h1
           className="lg:text-4xl text-3xl md:mb-0 mb-6 lg:leading-normal font-semibold md:w-2/5"
         >
-          Want to get in <span className="text-cyan-400 hover:text-cyan-600"><Link to="/comtact">TOUCH</Link></span>
+          Want to get in <span className="text-cyan-400 hover:text-cyan-600"><Link to="/contact">TOUCH</Link></span>?
         </h1>
         <div className="flex flex-col md:flex-row">
           <input
@@ -19,7 +19,7 @@ const Footer = () => {
             className="text-gray-800 sm:w-72 w-full sm:mr-5 mr-1 lg:mb-0 mb-4 py-2.5 rounded px-2 focus:outline-none md:w-max"
           />
           <button
-            className="bg-cyan-400 hover:bg-cyan-500 duration-300 px-5 py-2.5 font-[Poppins] rounded-md text-white md:w-max w-full"
+            className="bg-cyan-400 hover:bg-cyan-500 duration-300 px-5 py-2.5 font-[Poppins] rounded-md text-white md:w-max w-full h-max"
           >
             Get in touch
           </button>

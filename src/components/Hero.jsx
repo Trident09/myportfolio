@@ -1,7 +1,6 @@
 import React from "react";
-import "../css/hero-scroll.css";
-import "../css/hero-button.css";
-import { Link } from "react-scroll";
+import ScrollAnimation from "./ScrollAnimation";
+import HeroButton from "./HeroButton";
 
 function Hero() {
 	return (
@@ -25,19 +24,8 @@ function Hero() {
 					</span>
 				</h1>
 				<div className="flex flex-row gap-4 justify-center items-center">
-					<Link
-						to={"about"}
-						smooth={true}
-						duration={500}
-					>
-						<button className="button"> KNOW MORE</button>
-					</Link>
-					<div className="scrolldown scale-75">
-						<div className="chevrons">
-							<div className="chevrondown"></div>
-							<div className="chevrondown"></div>
-						</div>
-					</div>
+					<HeroButton />
+					<ScrollAnimation />
 				</div>
 			</div>
 		</section>

@@ -3,11 +3,11 @@ import { Link } from "react-scroll";
 
 const NavBar = () => {
 	let Links = [
-		{ name: "ABOUT", link: "about" },
-		{ name: "SERVICE", link: "services" },
-		{ name: "PORTFOLIO", link: "portfolio" },
-		{ name: "BLOG", link: "blog" }, //external link
-		{ name: "CONTACT", link: "footer" },
+		{ name: "ABOUT", link: "about", duration: 500},
+		{ name: "SERVICE", link: "services", duration: 700 },
+		{ name: "PORTFOLIO", link: "portfolio", duration: 900 },
+		{ name: "BLOG", link: "blog", duration: 1100 },
+		{ name: "CONTACT", link: "footer", duration: 1300 },
 	];
 	let [open, setOpen] = useState(false);
 	return (
@@ -44,7 +44,7 @@ const NavBar = () => {
 							<Link
 								to={link.link}
 								smooth={true}
-								duration={500}
+								duration={link.duration}
 								className="text-white hover:text-cyan-300 duration-500"
 							>
 								{link.name}

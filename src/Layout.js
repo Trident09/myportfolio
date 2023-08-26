@@ -7,19 +7,19 @@ import PreLoader from "./components/PreLoader";
 export default function Layout() {
 	const [isLoading, setIsLoading] = useState(true);
 	useEffect(() => {
-		const fakeDataFetch = () => {
+		const delay = () => {
 			setTimeout(() => {
 				setIsLoading(false);
 			}, 1500);
 		};
-		fakeDataFetch();
+		delay();
 	}, []);
 	return isLoading ? (
 		<PreLoader />
 	) : (
 		<body>
 			<NavBar />
-			<main className="mt-20">
+			<main className="pt-20">
 				<Outlet />
 			</main>
 			<Footer />

@@ -7,12 +7,12 @@ function Hero() {
 	return (
 		<section
 			id="hero"
-			class="text-blue-100"
+			className="text-blue-100"
 		>
-			<div class="w-full py-16 px-10 md:px-20 min-h-screen flex flex-col items-start justify-center">
-				<h1 class="text-4xl font-bold leading-loose">
+			<div className="w-full py-16 px-10 md:px-20 min-h-screen flex flex-col items-start justify-center">
+				<h1 className="text-4xl font-bold leading-loose">
 					Hi, my name is{" "}
-					<span class="font-extrabold text-6xl text-cyan-500 md:flex-col">
+					<span className="font-extrabold text-6xl text-cyan-500 md:flex-col">
 						RUPAM{" "}
 						<b className="opacity-95 text-cyan-300 text-5xl">
 							BARUI
@@ -30,12 +30,12 @@ function Hero() {
 						smooth={true}
 						duration={500}
 					>
-						<button class="button"> KNOW MORE</button>
+						<button className="button"> KNOW MORE</button>
 					</Link>
-					<div class="scrolldown scale-75">
-						<div class="chevrons">
-							<div class="chevrondown"></div>
-							<div class="chevrondown"></div>
+					<div className="scrolldown scale-75">
+						<div className="chevrons">
+							<div className="chevrondown"></div>
+							<div className="chevrondown"></div>
 						</div>
 					</div>
 				</div>

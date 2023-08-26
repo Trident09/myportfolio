@@ -1,10 +1,10 @@
 import { Route, Routes } from "react-router-dom";
 import Layout from "./Layout";
+import AboutMe from "./pages/AboutMe";
+import ContactPage from "./pages/ContactPage";
 import Home from "./pages/Home";
-import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import Services from "./pages/Services";
-import AboutMe from "./pages/AboutMe";
 
 function App() {
 	return (
@@ -31,7 +31,7 @@ function App() {
 				/>
 				<Route
 					path="/contact"
-					element={<Contact />}
+					element={<ContactPage />}
 				/>
 			</Route>
 		</Routes>

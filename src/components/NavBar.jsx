@@ -1,13 +1,13 @@
 import { React, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
 const NavBar = () => {
 	let Links = [
-		{ name: "ABOUT", link: "/about" },
-		{ name: "SERVICE", link: "/services" },
-		{ name: "PORTFOLIO", link: "/portfolio" },
-		{ name: "BLOG", link: "/" }, //external link
-		{ name: "CONTACT", link: "/contact" },
+		{ name: "ABOUT", link: "about" },
+		{ name: "SERVICE", link: "services" },
+		{ name: "PORTFOLIO", link: "portfolio" },
+		{ name: "BLOG", link: "blog" }, //external link
+		{ name: "CONTACT", link: "footer" },
 	];
 	let [open, setOpen] = useState(false);
 	return (
@@ -19,11 +19,11 @@ const NavBar = () => {
 							name="aperture"
 						></ion-icon>
 					</span>
-					<Link to="/">
+					<a href="/">
 						<span className="flex flex-row gap-1 hover:text-cyan-300">
 							Rupam <b className="text-cyan-300">B.</b>
 						</span>
-					</Link>
+					</a>
 				</div>
 				<div
 					onClick={() => setOpen(!open)}
@@ -41,12 +41,14 @@ const NavBar = () => {
 							key={link.name}
 							className="md:ml-8 text-xl md:my-0 my-7"
 						>
-							<a
-								href={link.link}
+							<Link
+								to={link.link}
+								smooth={true}
+								duration={500}
 								className="text-white hover:text-cyan-300 duration-500"
 							>
 								{link.name}
-							</a>
+							</Link>
 						</li>
 					))}
 				</ul>

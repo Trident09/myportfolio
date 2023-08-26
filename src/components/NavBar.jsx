@@ -16,7 +16,6 @@ const NavBar = () => {
 				<div className="font-normal text-2xl cursor-pointer flex items-center font-[Anton] text-white">
 					<span className="text-3xl text-white mr-1 pt-2">
 						<ion-icon
-							className="hover:text-cyan-500"
 							name="aperture"
 						></ion-icon>
 					</span>

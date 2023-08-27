@@ -20,7 +20,7 @@ function Hero() {
 					<br />
 					<span>
 						I'm the{" "}
-						<b className="text-cyan-300">Software Developer.</b>
+						<b className="text-cyan-300">Unknown Developer.</b>
 					</span>
 				</h1>
 				<div className="flex flex-row gap-4 justify-center items-center">

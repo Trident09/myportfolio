@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Icons } from "./Menus";
+import { Icons } from "../../Assets/Menus"
 import SocialIcons from "./SocialIcons";
 
 const Footer = () => {

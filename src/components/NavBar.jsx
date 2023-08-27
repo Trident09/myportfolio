@@ -5,7 +5,7 @@ const NavBar = () => {
 	let Links = [
 		{ name: "ABOUT", link: "about", duration: 500},
 		{ name: "SERVICE", link: "services", duration: 700 },
-		{ name: "PORTFOLIO", link: "portfolio", duration: 900 },
+		{ name: "PROJECT", link: "portfolio", duration: 900 },
 		{ name: "BLOG", link: "blog", duration: 1100 },
 		{ name: "CONTACT", link: "footer", duration: 1300 },
 	];

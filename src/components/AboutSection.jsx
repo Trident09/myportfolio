@@ -1,5 +1,7 @@
 import React from "react";
 import "../css/about-section.css";
+import AboutButton from "./AboutButton";
+import { Details, Skills, Texts } from "../Assets/Menus";
 
 function AboutSection() {
 	return (
@@ -9,9 +11,9 @@ function AboutSection() {
 		>
 			<div className="about_container w-full py-16">
 				<div className="about_contents">
-					<div className="imageSection relative">
+					<div className="imageSection relative aspect-[9/16]">
 						<img
-							className="w-full h-full object-cover relative z-10"
+							className="w-full h-full aspect-[9/16] object-cover relative z-10"
 							src="https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/Rupam-about.png"
 							alt="Rupam Barui"
 						/>
@@ -35,25 +37,27 @@ function AboutSection() {
 							aliquid. A odit consectetur reprehenderit amet
 							similique quo dolores eaque obcaecati quibusdam?
 						</p>
-						<div className="personalIn">
-							<div>
-								<span>Name: </span>
-								<span>Rupam Barui</span>
+						<div className="personalInfo grid mt-[14px] pb-[10px]">
+							{Details.map((detail) => (
+								<div className="grid">
+									<span className="text-[#aaabb0] tracking-[1px] ">{detail.name}</span>
+									<span className="text-[#aaabb0] tracking-[1px] ">{detail.content}</span>
+								</div>
+							))}
+						</div>
+							<AboutButton Texts={Texts}/>
+					</div>
+					<div className="skillsSection grid">
+						{Skills.map((skill) => (
+							<div className="skill">
+							<div className="subject text-lg font-thin text-[#aaabb0] pb-[10px] uppercase tracking-[1px]">
+								{skill.name}
 							</div>
-							<div>
-								<span>Age: </span>
-								<span>19+ Years</span>
-							</div>
-							<div>
-								<span>Email: </span>
-								<span>rupambarui.17@gmail.com</span>
-							</div>
-							<div>
-								<span>Location: </span>
-								<span>Delhi, India</span>
+							<div className="progress_bar w-full h-4 bg-[#2b2a2f] py-1 px-[6px] rounded-2xl">
+								<div className={skill.class} value={skill.value}></div>
 							</div>
 						</div>
-						<div className="aboutbutton">Download Resume</div>
+						))}
 					</div>
 				</div>
 			</div>

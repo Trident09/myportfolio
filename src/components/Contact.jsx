@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/contact-submit.css";
-import { Icons } from "./footer/Menus";
+import { Icons } from "../Assets/Menus";
 import SocialIcons from "./footer/SocialIcons";
 
 function Contact() {
@@ -87,16 +87,17 @@ function Contact() {
 									/>
 								</div>
 								<button
-									className="bg-cyan-400 hover:bg-cyan-100 py-1 uppercase"
+									className="contact__btn bg-cyan-400 hover:bg-cyan-300 py-1 uppercase"
 									type="submit"
 								>
-									<div className="svg-wrapper-1 hover:bg-cyan-100">
+									<div className="svg-wrapper-1 hover:bg-cyan-300">
 										<div className="svg-wrapper bg-cyan-400 hover:bg-cyan-100">
 											<svg
 												xmlns="http://www.w3.org/2000/svg"
 												viewBox="0 0 24 24"
 												width="24"
 												height="24"
+												className="contact__sub"
 											>
 												<path
 													fill="none"

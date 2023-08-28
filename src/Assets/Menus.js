@@ -5,6 +5,7 @@ export const Links = [
 	{ name: "BLOG", link: "blog", smooth: "true", duration: 1100 },
 	{ name: "CONTACT", link: "footer", smooth: "true", duration: 1300 },
 ];
+
 export const Abouts = [
 	{
 		content:
@@ -19,16 +20,6 @@ export const Abouts = [
 			"I am both a designer and a web developer. I enjoy taking on creative tasks and challenges that allow me to put my skills to the test. As a designer, I love experimenting with different color palettes, typography, and layout designs to create visually appealing and engaging websites and applications.",
 	},
 ];
-export const Icons = [
-	{ name: "logo-facebook", link: "https://www.facebook.com/Rupambarui17" },
-	{ name: "logo-twitter", link: "https://twitter.com/rupam_barui" },
-	{ name: "logo-github", link: "https://github.com/Trident09" },
-	{
-		name: "logo-linkedin",
-		link: "https://www.linkedin.com/in/rupam-barui-73b415230/",
-	},
-	{ name: "logo-instagram", link: "https://www.instagram.com/rup.am.i/" },
-];
 export const Details = [
 	{ name: "Name: ", content: "Rupam Barui" },
 	{ name: "Age: ", content: "19+ Years" },
@@ -41,12 +32,88 @@ export const Skills = [
 	{ name: "Web Dev", value: "95%", class: "max-w-[95%] progress_line" },
 	{ name: "C#", value: "85%", class: "max-w-[85%] progress_line" },
 ];
-export const Texts = [
+
+export const Services = [
+	{
+		name: "Web Design",
+		icon: "desktop-sharp",
+		text: "Figma, Adobe Illustrator",
+	},
+	{ 
+		name: "Web Dev", 
+		icon: "logo-react", 
+		text: "Vanilla, React, Node" 
+	},
+	{
+		name: "Photography",
+		icon: "camera-outline",
+		text: "Lightroom, Photoshop, After Effects, Premiere Pro",
+	},
+	{ 
+		name: "App Dev", 
+		icon: "phone-portrait-sharp", 
+		text: "Flutter, Swift" 
+	},
+	{ 
+		name: "Language", 
+		icon: "globe-sharp", 
+		text: "C, C#, Python, Java" 
+	},
+	{ 
+		name: "Graphic Design", 
+		icon: "image-sharp", 
+		text: "Blender, Canva" 
+	},
+];
+
+export const Icons = [
+	{ 
+		name: "logo-facebook", 
+		link: "https://www.facebook.com/Rupambarui17" 
+},
+	{ 
+		name: "logo-twitter", 
+		link: "https://twitter.com/rupam_barui" 
+},
+	{ 
+		name: "logo-github", 
+		link: "https://github.com/Trident09" 
+},
+	{
+		name: "logo-linkedin",
+		link: "https://www.linkedin.com/in/rupam-barui-73b415230/",
+	},
+	{ 
+		name: "logo-instagram", 
+		link: "https://www.instagram.com/rup.am.i/" 
+},
+];
+
+export const AboutBtns = [
 	{
 		title: "Resume",
 		text: "View",
 		link: "https://www.canva.com/design/DAFgvPynBRM/NNKFFGYjL6VRQOxIwLmrqg/view?utm_content=DAFgvPynBRM&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
 		target: "_blank",
+		classbtn: "btn text-[skyblue]",
+		classp: "after:text-[skyblue]",
 	},
-	{ title: "Know More", text: "Visit", link: "/about", target: "_self" },
+	{
+		title: "Know More",
+		text: "Visit",
+		link: "/about",
+		target: "_self",
+		classbtn: "btn text-[skyblue]",
+		classp: "after:text-[skyblue]",
+	},
+];
+export const ServiceBtns = [
+	{
+		title: "Know More",
+		text: "Visit",
+		link: "/services",
+		target: "_self",
+		classbtn: "btn text-blue-900",
+		classp: "after:text-blue-900",
+	},
 ];

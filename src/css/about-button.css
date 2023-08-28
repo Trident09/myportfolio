@@ -14,7 +14,6 @@
 	background-color: transparent;
 	outline: 1px solid blue;
 	margin: 20px;
-	color: skyblue;
 	position: relative;
 	overflow: hidden;
 	font-size: 14px;
@@ -110,7 +109,6 @@
 .buttons button p:after {
 	content: attr(data-text);
 	top: 150%;
-	color: skyblue;
 }
 
 .buttons button:hover:before,

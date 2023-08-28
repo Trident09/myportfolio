@@ -37,7 +37,7 @@ const NavBar = () => {
 						>
 							<Link
 								to={link.link}
-								smooth={true}
+								smooth={link.smooth}
 								duration={link.duration}
 								className="text-white hover:text-cyan-300 duration-500"
 							>

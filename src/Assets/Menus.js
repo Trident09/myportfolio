@@ -1,9 +1,9 @@
 export const Links = [
-	{ name: "ABOUT", link: "about", duration: 500 },
-	{ name: "SERVICE", link: "services", duration: 700 },
-	{ name: "PROJECT", link: "portfolio", duration: 900 },
-	{ name: "BLOG", link: "blog", duration: 1100 },
-	{ name: "CONTACT", link: "footer", duration: 1300 },
+	{ name: "ABOUT", link: "about", smooth: "true", duration: 500 },
+	{ name: "RESOURCES", link: "services", smooth: "true", duration: 700 },
+	{ name: "PROJECT", link: "portfolio", smooth: "true", duration: 900 },
+	{ name: "BLOG", link: "blog", smooth: "true", duration: 1100 },
+	{ name: "CONTACT", link: "footer", smooth: "true", duration: 1300 },
 ];
 export const Abouts = [
 	{

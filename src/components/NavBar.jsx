@@ -1,14 +1,8 @@
 import { React, useState } from "react";
 import { Link } from "react-scroll";
+import { Links } from "../Assets/Menus";
 
 const NavBar = () => {
-	let Links = [
-		{ name: "ABOUT", link: "about", duration: 500},
-		{ name: "SERVICE", link: "services", duration: 700 },
-		{ name: "PROJECT", link: "portfolio", duration: 900 },
-		{ name: "BLOG", link: "blog", duration: 1100 },
-		{ name: "CONTACT", link: "footer", duration: 1300 },
-	];
 	let [open, setOpen] = useState(false);
 	return (
 		<div className="z-40 shadow-md w-full fixed top-0 left-0">

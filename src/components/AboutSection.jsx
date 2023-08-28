@@ -2,6 +2,7 @@ import React from "react";
 import "../css/about-section.css";
 import AboutButton from "./AboutButton";
 import { Abouts, Details, Skills, Texts } from "../Assets/Menus";
+import LeftSkew from "./LeftSkew";
 
 function AboutSection() {
 	return (
@@ -10,7 +11,7 @@ function AboutSection() {
 			className="flex flex-col justify-center items-center"
 		>
 			<div className="px-10 md:px-20 w-full min-h-screen bg-[#2b2a2f] flex justify-center items-center pb-0 mb-0">
-				<div className="about_container w-full pt-16 pb-4">
+				<div className="about_container w-full py-16">
 					<div className="about_contents">
 						<div className="imageSection relative aspect-[9/16]">
 							<img
@@ -34,7 +35,7 @@ function AboutSection() {
 							))}
 							<div className="personalInfo grid mt-[14px] pb-[10px]">
 								{Details.map((detail) => (
-									<div className="grid">
+									<div className="grid detail_info">
 										<span className="text-[#aaabb0] tracking-[1px] ">
 											{detail.name}
 										</span>
@@ -64,7 +65,7 @@ function AboutSection() {
 					</div>
 				</div>
 			</div>
-			<div className="w-0 h-0 separator bg-blue-200"></div>
+			<LeftSkew />
 		</section>
 	);
 }

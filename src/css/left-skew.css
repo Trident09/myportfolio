@@ -1,0 +1,6 @@
+.separator {
+	border-right: 100vw solid transparent;
+	border-bottom: 13.9vw solid #2b2a2f;
+	transform: rotateX(180deg);
+	margin-top: -1px;
+}

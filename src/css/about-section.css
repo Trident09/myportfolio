@@ -93,13 +93,6 @@
 	font-size: 17px;
 }
 
-.separator {
-	border-right: 100vw solid transparent;
-	border-bottom: 13.9vw solid #2b2a2f;
-	transform: rotateX(180deg);
-	margin-top: -1px;
-}
-
 @media (max-width: 1068px) {
 	.about_container .about_contents {
 		grid-template-areas: "imageSect skillsSect" "infoSect infoSect";
@@ -118,7 +111,7 @@
 }
 
 @media (max-width: 668px) {
-    .personaInfo {
-        grid-template-columns: 1fr;
+    .personaInfo div{
+        grid-template-rows: 1fr 1fr;
     }
 }

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const AboutButton = ({ Texts }) => {
 	return (
-		<div className="py-2 flex flex-row">
+		<div className=" container-btn py-2 flex flex-row">
 			{Texts.map((text) => (
 				<Link to={text.link} target={text.target}>
 					<div class="buttons">

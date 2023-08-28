@@ -181,3 +181,11 @@
 .buttons button:focus {
 	outline: 0;
 }
+
+@media screen and (max-width: 668px) {
+	.buttons button {
+		margin-right: 10px;
+		margin-left: 10px;
+		width: 125px;
+	}
+}

@@ -8,7 +8,7 @@ export const Links = [
 export const Abouts = [
 	{
 		content:
-			"I am a self-taught Web Developer and Designer from Delhi, India. I am currently pursuing my B.Tech M.Tech in Computer Science and Engineering from National Forensic Sciences University, Delhi.",
+			"I am a self-taught Software Developer and Designer from Delhi, India. I am currently pursuing my B.Tech M.Tech in Computer Science and Engineering from National Forensic Sciences University, Delhi.",
 	},
 	{
 		content:

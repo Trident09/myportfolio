@@ -14,22 +14,20 @@ const ProjectCard = ({ Projects }) => {
 					<div class="card__content">
 						<p class="card__title">{project.name}</p>
 						<p class="card__description">{project.desc}</p>
-						<button class="card__button">
-							<Link
-								to={project.demo}
-								target="_blank"
-							>
-								Live Demo
-							</Link>
-						</button>
-						<button class="card__button secondary">
-							<Link
-								to={project.source}
-								target="_blank"
-							>
+						<Link
+							to={project.demo}
+							target="_blank"
+						>
+							<button class="card__button">Live Demo</button>
+						</Link>
+						<Link
+							to={project.source}
+							target="_blank"
+						>
+							<button class="card__button secondary">
 								Source Code
-							</Link>
-						</button>
+							</button>
+						</Link>
 					</div>
 				</div>
 			))}

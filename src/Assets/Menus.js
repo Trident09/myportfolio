@@ -43,12 +43,12 @@ export const Services = [
 	{
 		name: "Web Design",
 		icon: "globe-outline",
-		text: "Figma, Adobe Illustrator",
+		text: "Figma",
 	},
 	{
 		name: "Web Dev",
 		icon: "logo-react",
-		text: "Vanilla, React, Node",
+		text: "Vanilla, React, Node, Wordpress, Firebase, MongoDB",
 	},
 	{
 		name: "Photography",
@@ -68,7 +68,7 @@ export const Services = [
 	{
 		name: "Graphic Design",
 		icon: "image-outline",
-		text: "Blender, Canva",
+		text: "Blender, Adobe Illustrator",
 	},
 ];
 
@@ -113,7 +113,7 @@ export const Portfolios = [
 		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/proj-qr.png",
 		alt: "QR code Generator",
 		desc: "This is a QR code generator which turns links into QR codes",
-		demo: "https://github.com/Trident09/QR-ify/",
+		demo: "https://trident09.github.io/QR-ify/",
 		source: "https://github.com/Trident09/QR-ify/",
 	},
 	{
@@ -121,24 +121,24 @@ export const Portfolios = [
 		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/proj-passgen.jpeg",
 		alt: "PassWord Generator",
 		desc: "Random password generator in Javascript",
-		demo: "https://github.com/Trident09/PassWord-generator/",
-		source: "https://trident09.github.io/PassWord-generator/",
+		demo: "https://trident09.github.io/PassWord-generator/",
+		source: "https://github.com/Trident09/PassWord-generator/",
 	},
 	{
 		name: "Calculator",
 		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/proj-calculator.jpeg",
 		alt: "Calculator App",
 		desc: "this is a basic web app calculator",
-		demo: "https://github.com/Trident09/Calculator",
-		source: "https://github.com/Trident09/Calculator",
+		demo: "https://trident09.github.io/Calculator/",
+		source: "https://github.com/Trident09/Calculator/",
 	},
 	{
 		name: "Con Currency",
 		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/proj-exchange.jpeg",
 		alt: "Currency Exchange Rate Calculator",
 		desc: "Web app for currency conversion",
-		demo: "https://github.com/Trident09/currency-converter",
-		source: "https://github.com/Trident09/currency-converter",
+		demo: "https://trident09.github.io/currency-converter/",
+		source: "https://github.com/Trident09/currency-converter/",
 	},
 	{
 		name: "Weather",
@@ -146,7 +146,7 @@ export const Portfolios = [
 		alt: "Weather Forecast App",
 		desc: "Web application in React for weather forecast",
 		demo: "https://weather-trident09.vercel.app/",
-		source: "https://trident09.github.io/weather/",
+		source: "https://github.com/Trident09/weather/",
 	},
 ];
 

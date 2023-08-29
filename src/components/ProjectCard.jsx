@@ -15,10 +15,20 @@ const ProjectCard = ({ Projects }) => {
 						<p class="card__title">{project.name}</p>
 						<p class="card__description">{project.desc}</p>
 						<button class="card__button">
-							<Link to={project.demo}>Live Demo</Link>
+							<Link
+								to={project.demo}
+								target="_blank"
+							>
+								Live Demo
+							</Link>
 						</button>
 						<button class="card__button secondary">
-							<Link to={project.source}>Source Code</Link>
+							<Link
+								to={project.source}
+								target="_blank"
+							>
+								Source Code
+							</Link>
 						</button>
 					</div>
 				</div>

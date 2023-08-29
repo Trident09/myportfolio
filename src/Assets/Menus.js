@@ -102,7 +102,7 @@ export const Icons = [
 export const Portfolios = [
 	{
 		name: "Hangman",
-		src: "/",
+		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/proj-hangman.jpeg",
 		alt: "Hangman Game",
 		desc: "game where you guess a word with a given hint",
 		demo: "https://trident09.github.io/Hangman/",
@@ -110,7 +110,7 @@ export const Portfolios = [
 	},
 	{
 		name: "QR-ify",
-		src: "/",
+		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/proj-qr.png",
 		alt: "QR code Generator",
 		desc: "This is a QR code generator which turns links into QR codes",
 		demo: "https://github.com/Trident09/QR-ify/",
@@ -118,7 +118,7 @@ export const Portfolios = [
 	},
 	{
 		name: "Pass Gen",
-		src: "/",
+		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/proj-passgen.jpeg",
 		alt: "PassWord Generator",
 		desc: "Random password generator in Javascript",
 		demo: "https://github.com/Trident09/PassWord-generator/",
@@ -126,7 +126,7 @@ export const Portfolios = [
 	},
 	{
 		name: "Calculator",
-		src: "/",
+		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/proj-calculator.jpeg",
 		alt: "Calculator App",
 		desc: "this is a basic web app calculator",
 		demo: "https://github.com/Trident09/Calculator",
@@ -134,7 +134,7 @@ export const Portfolios = [
 	},
 	{
 		name: "Con Currency",
-		src: "/",
+		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/proj-exchange.jpeg",
 		alt: "Currency Exchange Rate Calculator",
 		desc: "Web app for currency conversion",
 		demo: "https://github.com/Trident09/currency-converter",
@@ -142,7 +142,7 @@ export const Portfolios = [
 	},
 	{
 		name: "Weather",
-		src: "/",
+		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/proj-weather.png",
 		alt: "Weather Forecast App",
 		desc: "Web application in React for weather forecast",
 		demo: "https://weather-trident09.vercel.app/",

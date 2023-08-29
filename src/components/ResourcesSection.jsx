@@ -9,7 +9,7 @@ function ResourcesSection() {
 			id="services"
 			className="py-16 px-10 md:px-20 w-full min-h-screen bg-blue-200 text-blue-900 flex flex-col justify-center items-center"
 		>
-			<div className="py-[1rem] px-0 section-services">
+			<div className="py-4 px-0 section-services">
 				<div className="my-0 py-0">
 					<h2 className="common-heading text-3xl font-semibold capitalize relative leading-normal mb-5 w-max">
 						WHAT I DO !

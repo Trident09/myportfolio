@@ -1,3 +1,5 @@
+// Navbar data
+
 export const Links = [
 	{ name: "ABOUT", link: "about", smooth: "true", duration: 500 },
 	{ name: "RESOURCES", link: "services", smooth: "true", duration: 700 },
@@ -5,6 +7,8 @@ export const Links = [
 	{ name: "BLOG", link: "blog", smooth: "true", duration: 1100 },
 	{ name: "CONTACT", link: "footer", smooth: "true", duration: 1300 },
 ];
+
+// About section data
 
 export const Abouts = [
 	{
@@ -33,61 +37,120 @@ export const Skills = [
 	{ name: "C#", value: "85%", class: "max-w-[85%] progress_line" },
 ];
 
+// Services section data
+
 export const Services = [
 	{
 		name: "Web Design",
-		icon: "desktop-sharp",
+		icon: "globe-outline",
 		text: "Figma, Adobe Illustrator",
 	},
-	{ 
-		name: "Web Dev", 
-		icon: "logo-react", 
-		text: "Vanilla, React, Node" 
+	{
+		name: "Web Dev",
+		icon: "logo-react",
+		text: "Vanilla, React, Node",
 	},
 	{
 		name: "Photography",
 		icon: "camera-outline",
 		text: "Lightroom, Photoshop, After Effects, Premiere Pro",
 	},
-	{ 
-		name: "App Dev", 
-		icon: "phone-portrait-sharp", 
-		text: "Flutter, Swift" 
+	{
+		name: "App Dev",
+		icon: "phone-portrait-outline",
+		text: "Flutter, Swift",
 	},
-	{ 
-		name: "Language", 
-		icon: "globe-sharp", 
-		text: "C, C#, Python, Java" 
+	{
+		name: "Language",
+		icon: "code-slash-outline",
+		text: "C, C#, Python, Java",
 	},
-	{ 
-		name: "Graphic Design", 
-		icon: "image-sharp", 
-		text: "Blender, Canva" 
+	{
+		name: "Graphic Design",
+		icon: "image-outline",
+		text: "Blender, Canva",
 	},
 ];
 
+// Social Icons data
+
 export const Icons = [
-	{ 
-		name: "logo-facebook", 
-		link: "https://www.facebook.com/Rupambarui17" 
-},
-	{ 
-		name: "logo-twitter", 
-		link: "https://twitter.com/rupam_barui" 
-},
-	{ 
-		name: "logo-github", 
-		link: "https://github.com/Trident09" 
-},
+	{
+		name: "logo-facebook",
+		link: "https://www.facebook.com/Rupambarui17",
+	},
+	{
+		name: "logo-twitter",
+		link: "https://twitter.com/rupam_barui",
+	},
+	{
+		name: "logo-github",
+		link: "https://github.com/Trident09",
+	},
 	{
 		name: "logo-linkedin",
 		link: "https://www.linkedin.com/in/rupam-barui-73b415230/",
 	},
-	{ 
-		name: "logo-instagram", 
-		link: "https://www.instagram.com/rup.am.i/" 
-},
+	{
+		name: "logo-instagram",
+		link: "https://www.instagram.com/rup.am.i/",
+	},
 ];
+
+// Portfolio section data
+
+export const Portfolios = [
+	{
+		name: "Hangman",
+		src: "/",
+		alt: "Hangman Game",
+		desc: "game where you guess a word with a given hint",
+		demo: "https://trident09.github.io/Hangman/",
+		source: "https://github.com/Trident09/Hangman/",
+	},
+	{
+		name: "QR-ify",
+		src: "/",
+		alt: "QR code Generator",
+		desc: "This is a QR code generator which turns links into QR codes",
+		demo: "https://github.com/Trident09/QR-ify/",
+		source: "https://github.com/Trident09/QR-ify/",
+	},
+	{
+		name: "Pass Gen",
+		src: "/",
+		alt: "PassWord Generator",
+		desc: "Random password generator in Javascript",
+		demo: "https://github.com/Trident09/PassWord-generator/",
+		source: "https://trident09.github.io/PassWord-generator/",
+	},
+	{
+		name: "Calculator",
+		src: "/",
+		alt: "Calculator App",
+		desc: "this is a basic web app calculator",
+		demo: "https://github.com/Trident09/Calculator",
+		source: "https://github.com/Trident09/Calculator",
+	},
+	{
+		name: "Con Currency",
+		src: "/",
+		alt: "Currency Exchange Rate Calculator",
+		desc: "Web app for currency conversion",
+		demo: "https://github.com/Trident09/currency-converter",
+		source: "https://github.com/Trident09/currency-converter",
+	},
+	{
+		name: "Weather",
+		src: "/",
+		alt: "Weather Forecast App",
+		desc: "Web application in React for weather forecast",
+		demo: "https://weather-trident09.vercel.app/",
+		source: "https://trident09.github.io/weather/",
+	},
+];
+
+// Buttons data
 
 export const AboutBtns = [
 	{
@@ -112,6 +175,16 @@ export const ServiceBtns = [
 		title: "Know More",
 		text: "Visit",
 		link: "/services",
+		target: "_self",
+		classbtn: "btn text-blue-900",
+		classp: "after:text-blue-900",
+	},
+];
+export const PortfolioBtns = [
+	{
+		title: "Know More",
+		text: "Visit",
+		link: "/portfolio",
 		target: "_self",
 		classbtn: "btn text-blue-900",
 		classp: "after:text-blue-900",

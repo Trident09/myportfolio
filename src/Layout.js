@@ -10,7 +10,7 @@ export default function Layout() {
 		const delay = () => {
 			setTimeout(() => {
 				setIsLoading(false);
-			}, 15);
+			}, 1500);
 		};
 		delay();
 	}, []);

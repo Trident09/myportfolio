@@ -10,9 +10,9 @@ const AboutButton = ({ Texts }) => {
 					to={text.link}
 					target={text.target}
 				>
-					<div class="buttons">
+					<div class="buttons flex justify-around top-5 left-5">
 						<button class={text.classbtn}>
-							<span></span>
+							<span className="w-full h-full absolute left-0 top-0 m-0 p-0 z-[1]"></span>
 							<p
 								className={text.classp}
 								data-start="good luck!"

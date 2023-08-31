@@ -87,17 +87,17 @@ function Contact() {
 									/>
 								</div>
 								<button
-									className="contact__btn bg-cyan-400 hover:bg-cyan-300 py-1 uppercase"
+									className="contact__btn text-lg flex items-center justify-center text-white bg-cyan-400 hover:bg-cyan-300 py-1 uppercase rounded-3xl"
 									type="submit"
 								>
 									<div className="svg-wrapper-1 hover:bg-cyan-300">
-										<div className="svg-wrapper bg-cyan-400 hover:bg-cyan-100">
+										<div className="svg-wrapper bg-cyan-400 hover:bg-cyan-100 flex items-center justify-center w-[30px] h-[30px] rounded-[50%] mr-[0.5em]">
 											<svg
 												xmlns="http://www.w3.org/2000/svg"
 												viewBox="0 0 24 24"
 												width="24"
 												height="24"
-												className="contact__sub"
+												className="contact__sub w-[18px] h-[18px] fill-white"
 											>
 												<path
 													fill="none"
@@ -110,7 +110,9 @@ function Contact() {
 											</svg>
 										</div>
 									</div>
-									<span>Send</span>
+									<span className="block ml-[0.4em]">
+										Send
+									</span>
 								</button>
 							</form>
 						</div>

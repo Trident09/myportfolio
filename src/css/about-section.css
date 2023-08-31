@@ -1,5 +1,4 @@
 .about_container .about_contents {
-	display: grid;
 	grid-template-columns: 2fr 5fr;
 	grid-gap: 70px;
 	grid-template-areas: "imageSect infoSect" "skillsSect skillsSect";
@@ -16,11 +15,6 @@
 
 .skillsSection {
 	grid-area: skillsSect;
-}
-
-.about_container .imageSection {
-	min-width: 300px;
-	height: 380px;
 }
 
 .about_container .imageSection::after {

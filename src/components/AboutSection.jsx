@@ -12,8 +12,8 @@ function AboutSection() {
 		>
 			<div className="px-10 md:px-20 w-full min-h-screen bg-[#2b2a2f] flex justify-center items-center pb-0 mb-0">
 				<div className="about_container w-full py-16">
-					<div className="about_contents">
-						<div className="imageSection relative aspect-[9/16]">
+					<div className="about_contents grid">
+						<div className="imageSection relative aspect-[9/16] min-w-[300px] h-[380px]">
 							<img
 								className="w-full h-full aspect-[9/16] object-cover relative z-10"
 								src="https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/Rupam-about.png"

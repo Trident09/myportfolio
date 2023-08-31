@@ -2,15 +2,7 @@
 	--color: skyblue;
 	--sizeX: 30px;
 	--sizeY: 50px;
-	position: relative;
-	width: var(--sizeX);
-	height: var(--sizeY);
-	margin-left: var(sizeX / 2);
 	border: calc(var(--sizeX) / 10) solid var(--color);
-	border-radius: 50px;
-	box-sizing: border-box;
-	margin-bottom: 16px;
-	cursor: pointer;
 }
 
 .scrolldown::before {
@@ -51,24 +43,9 @@
 	}
 }
 
-.chevrons {
-	padding: 6px 0 0 0;
-	margin-left: -3px;
-	margin-top: 48px;
-	width: 30px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
 .chevrondown {
-	margin-top: -6px;
-	position: relative;
 	border: solid var(--color);
 	border-width: 0 3px 3px 0;
-	display: inline-block;
-	width: 10px;
-	height: 10px;
 	transform: rotate(45deg);
 }
 

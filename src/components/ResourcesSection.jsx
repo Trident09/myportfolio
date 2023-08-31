@@ -15,11 +15,11 @@ function ResourcesSection() {
 						WHAT I DO !
 					</h2>
 					<p className="text-[#777] text-xl leading-relaxed w-[85%] tracking-wide">
-						I am a full stack web developer and designer. I am also a hobbyist photographer. I can
-						provide clean code and pixel perfect design. I also make
-						website more & more interactive with web animations. I
-						have more than 2 years of experience in software
-						development.
+						I am a full stack web developer and designer. I am also
+						a hobbyist photographer. I can provide clean code and
+						pixel perfect design. I also make website more & more
+						interactive with web animations. I have more than 2
+						years of experience in software development.
 					</p>
 				</div>
 				<div className="service-con mt-8 mb-0 mx-auto grid gap-10">

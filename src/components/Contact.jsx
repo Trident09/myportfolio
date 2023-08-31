@@ -1,6 +1,6 @@
 import React from "react";
-import "../css/contact-submit.css";
 import { Icons } from "../Assets/Menus";
+import "../css/contact-submit.css";
 import SocialIcons from "./footer/SocialIcons";
 
 function Contact() {

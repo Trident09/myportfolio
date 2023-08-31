@@ -7,8 +7,8 @@ function PreLoader() {
 			id="preloader"
 			className="w-full h-full fixed top-0 z-50 bg-black"
 		>
-            <LoadingAnimation />
-        </div>
+			<LoadingAnimation />
+		</div>
 	);
 }
 

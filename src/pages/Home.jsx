@@ -1,8 +1,8 @@
 import React from "react";
-import Hero from "../components/Hero";
 import AboutSection from "../components/AboutSection";
-import ProjectSection from "../components/ProjectSection";
 import BlogSection from "../components/BlogSection";
+import Hero from "../components/Hero";
+import ProjectSection from "../components/ProjectSection";
 import ResourcesSection from "../components/ResourcesSection";
 
 function Home() {

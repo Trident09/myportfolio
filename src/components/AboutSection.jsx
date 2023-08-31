@@ -1,7 +1,7 @@
 import React from "react";
+import { AboutBtns, Abouts, Details, Skills } from "../Assets/Menus";
 import "../css/about-section.css";
 import AboutButton from "./AboutButton";
-import { AboutBtns, Abouts, Details, Skills } from "../Assets/Menus";
 import LeftSkewDown from "./LeftSkewDown";
 
 function AboutSection() {
@@ -45,7 +45,7 @@ function AboutSection() {
 									</div>
 								))}
 							</div>
-							<AboutButton Texts={ AboutBtns } />
+							<AboutButton Texts={AboutBtns} />
 						</div>
 						<div className="skillsSection grid">
 							{Skills.map((skill) => (

@@ -1,8 +1,8 @@
 import React from "react";
 import { PortfolioBtns, Portfolios } from "../Assets/Menus";
+import "../css/project-section.css";
 import AboutButton from "./AboutButton";
 import ProjectCard from "./ProjectCard";
-import "../css/project-section.css";
 
 function ProjectSection() {
 	return (

@@ -105,7 +105,7 @@
 }
 
 @media (max-width: 668px) {
-    .personaInfo div{
-        grid-template-rows: 1fr 1fr;
-    }
+	.personaInfo div {
+		grid-template-rows: 1fr 1fr;
+	}
 }

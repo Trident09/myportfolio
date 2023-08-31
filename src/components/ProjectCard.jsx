@@ -12,13 +12,19 @@ const ProjectCard = ({ Projects }) => {
 						alt={project.alt}
 					/>
 					<div class="card__content absolute w-full h-full top-0 left-0 p-5 bg-blue-300">
-						<p class="card__title m-0 text-xl text-[#07063d] font-bold">{project.name}</p>
-						<p class="card__description my-[10px] text-xs text-[#07063d] leading-[1.4]">{project.desc}</p>
+						<p class="card__title m-0 text-xl text-[#07063d] font-bold">
+							{project.name}
+						</p>
+						<p class="card__description my-[10px] text-xs text-[#07063d] leading-[1.4]">
+							{project.desc}
+						</p>
 						<Link
 							to={project.demo}
 							target="_blank"
 						>
-							<button class="card__button p-[15px] rounded-[8px] bg-[#07063d] text-white hover:text-[#07063d] hover:bg-blue-300">Live Demo</button>
+							<button class="card__button p-[15px] rounded-[8px] bg-[#07063d] text-white hover:text-[#07063d] hover:bg-blue-300">
+								Live Demo
+							</button>
 						</Link>
 						<Link
 							to={project.source}

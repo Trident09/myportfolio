@@ -1,6 +1,6 @@
 import React from "react";
-import ScrollAnimation from "./ScrollAnimation";
 import HeroButton from "./HeroButton";
+import ScrollAnimation from "./ScrollAnimation";
 
 function Hero() {
 	return (

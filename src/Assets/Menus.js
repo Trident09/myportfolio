@@ -133,8 +133,8 @@ export const PortfolioBtns = [
 		text: "Visit",
 		link: "/portfolio",
 		target: "_self",
-		classbtn: "btn text-blue-900",
-		classp: "after:text-blue-900",
+		classbtn: "btn text-cyan-300",
+		classp: "after:text-cyan-300",
 	},
 ];
 

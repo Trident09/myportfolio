@@ -8,7 +8,7 @@ const Footer = () => {
 	return (
 		<footer
 			id="footer"
-			className="text-white"
+			className="text-white bg-blue-300"
 		>
 			<Waves />
 			<div className="bg-gray-900">
@@ -21,7 +21,7 @@ const Footer = () => {
 						?
 					</h1>
 					<div className="flex flex-col md:flex-row">
-						<button className="bg-cyan-400 hover:bg-cyan-500 duration-300 px-5 py-2.5 font-[Poppins] rounded-md text-white md:w-max w-full h-max capitalize">
+						<button className="bg-cyan-400 hover:bg-cyan-500 duration-300 px-5 py-2.5 font-[Poppins] rounded-md text-[#07063d] md:w-max w-full h-max capitalize">
 							<Link to="/contact">CONTACT ME</Link>
 						</button>
 					</div>

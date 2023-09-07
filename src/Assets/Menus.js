@@ -97,59 +97,6 @@ export const Icons = [
 	},
 ];
 
-// Portfolio section data
-
-export const Portfolios = [
-	{
-		name: "Hangman",
-		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/proj-hangman.jpeg",
-		alt: "Hangman Game",
-		desc: "game where you guess a word with a given hint",
-		demo: "https://trident09.github.io/Hangman/",
-		source: "https://github.com/Trident09/Hangman/",
-	},
-	{
-		name: "QR-ify",
-		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/proj-qr.png",
-		alt: "QR code Generator",
-		desc: "This is a QR code generator which turns links into QR codes",
-		demo: "https://trident09.github.io/QR-ify/",
-		source: "https://github.com/Trident09/QR-ify/",
-	},
-	{
-		name: "Pass Gen",
-		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/proj-passgen.jpeg",
-		alt: "PassWord Generator",
-		desc: "Random password generator in Javascript",
-		demo: "https://trident09.github.io/PassWord-generator/",
-		source: "https://github.com/Trident09/PassWord-generator/",
-	},
-	{
-		name: "Calculator",
-		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/proj-calculator.jpeg",
-		alt: "Calculator App",
-		desc: "this is a basic web app calculator",
-		demo: "https://trident09.github.io/Calculator/",
-		source: "https://github.com/Trident09/Calculator/",
-	},
-	{
-		name: "Con Currency",
-		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/proj-exchange.jpeg",
-		alt: "Currency Exchange Rate Calculator",
-		desc: "Web app for currency conversion",
-		demo: "https://trident09.github.io/currency-converter/",
-		source: "https://github.com/Trident09/currency-converter/",
-	},
-	{
-		name: "Weather",
-		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/proj-weather.png",
-		alt: "Weather Forecast App",
-		desc: "Web application in React for weather forecast",
-		demo: "https://weather-trident09.vercel.app/",
-		source: "https://github.com/Trident09/weather/",
-	},
-];
-
 // Buttons data
 
 export const AboutBtns = [
@@ -191,9 +138,70 @@ export const PortfolioBtns = [
 	},
 ];
 
+// Portfolio section data
+
+export const Portfolios = [
+	{
+		name: "GDSC NFSU GCP Progress Report",
+		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/proj-gcp-nfsu.png",
+		alt: "Progress Report for GDSC NFSU GCP",
+		desc: "Website for tracking the progress in Google Cloud Study Jam - 2023",
+		demo: "https://nfsu-gcp.vercel.app/",
+		source: "https://github.com/Trident09/gcp-progress",
+	},
+	{
+		name: "Hangman",
+		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/proj-hangman.jpeg",
+		alt: "Hangman Game",
+		desc: "game where you guess a word with a given hint",
+		demo: "https://trident09.github.io/Hangman/",
+		source: "https://github.com/Trident09/Hangman/",
+	},
+	{
+		name: "QR-ify",
+		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/proj-qr.png",
+		alt: "QR code Generator",
+		desc: "This is a QR code generator which turns links into QR codes",
+		demo: "https://trident09.github.io/QR-ify/",
+		source: "https://github.com/Trident09/QR-ify/",
+	},
+	{
+		name: "Pass Gen",
+		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/proj-passgen.jpeg",
+		alt: "PassWord Generator",
+		desc: "Random password generator in Javascript",
+		demo: "https://trident09.github.io/PassWord-generator/",
+		source: "https://github.com/Trident09/PassWord-generator/",
+	},
+	{
+		name: "Calculator",
+		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/proj-calculator.jpeg",
+		alt: "Calculator App",
+		desc: "this is a basic web app calculator",
+		demo: "https://trident09.github.io/Calculator/",
+		source: "https://github.com/Trident09/Calculator/",
+	},
+	{
+		name: "Con Currency",
+		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/proj-exchange.jpeg",
+		alt: "Currency Exchange Rate Calculator",
+		desc: "Web app for currency conversion",
+		demo: "https://trident09.github.io/currency-converter/",
+		source: "https://github.com/Trident09/currency-converter/",
+	},
+];
+
 // Portfolio Page all projects - All time
 
 export const PortfoliosAll = [
+	{
+		name: "GDSC NFSU GCP Progress Report",
+		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/proj-gcp-nfsu.png",
+		alt: "Progress Report for GDSC NFSU GCP",
+		desc: "Website for tracking the progress in Google Cloud Study Jam - 2023",
+		demo: "https://nfsu-gcp.vercel.app/",
+		source: "https://github.com/Trident09/gcp-progress",
+	},
 	{
 		name: "Hangman",
 		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/proj-hangman.jpeg",

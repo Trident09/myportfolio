@@ -8,14 +8,13 @@ function Contact() {
 		<div className="antialiased py-4">
 			<div className="flex w-full min-h-[calc(100vh-350px)] justify-center items-center">
 				<div className="flex flex-col md:flex-row md:space-x-6 md:space-y-0 space-y-6 bg-cyan-700 w-full max-w-4xl p-8 sm:p-12 rounded-xl shadow-lg text-white overflow-hidden">
-					<div className="flex flex-col space-y-8 justify-between">
+					<div className="flex flex-col space-y-8 justify-between py-20">
 						<div>
 							<h1 className="font-bold text-4xl tracking-wide">
 								Contact Me
 							</h1>
-							<p className="pt-2 text-cyan-100 text-sm">
-								Lorem ipsum dolor sit, amet consectetur
-								adipisicing elit. Voluptatem, id.
+							<p className="pt-2 text-cyan-100 text-sm max-w-sm">
+								If you have any questions or want to work with me, feel free to contact me. I will try to get back to you as soon as possible!<br/> THIS FORM IS NOT YET FUNCTIONAL.
 							</p>
 						</div>
 						<div className="flex flex-col space-y-6">
@@ -71,6 +70,20 @@ function Contact() {
 										type="email"
 										placeholder="Email"
 										name="Email"
+										className="outline-1 outline-gray-300 w-full rounded-md px-4 py-2 m-2 outline-none focus:outline-2 focus:outline-teal-300"
+									/>
+								</div>
+								<div>
+									<label
+										htmlFor=""
+										className="text-sm"
+									>
+										Your Email
+									</label>
+									<input
+										type="text"
+										placeholder="Subject"
+										name="Subject"
 										className="outline-1 outline-gray-300 w-full rounded-md px-4 py-2 m-2 outline-none focus:outline-2 focus:outline-teal-300"
 									/>
 								</div>

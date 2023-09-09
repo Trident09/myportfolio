@@ -1,11 +1,11 @@
 // Navbar data
 
 export const Links = [
-	{ name: "ABOUT", link: "about", smooth: "true", duration: 500 },
-	{ name: "RESOURCES", link: "services", smooth: "true", duration: 700 },
-	{ name: "PROJECT", link: "portfolio", smooth: "true", duration: 900 },
-	{ name: "BLOG", link: "blog", smooth: "true", duration: 1100 },
-	{ name: "CONTACT", link: "footer", smooth: "true", duration: 1300 },
+	{ name: "ABOUT", link: "/about" },
+	{ name: "RESOURCES", link: "/services" },
+	{ name: "PROJECT", link: "/portfolio" },
+	{ name: "BLOG", link: "/" },
+	{ name: "CONTACT", link: "/contact" },
 ];
 
 // About section data

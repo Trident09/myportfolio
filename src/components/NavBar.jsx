@@ -1,5 +1,5 @@
 import { React, useState } from "react";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 import { Links } from "../Assets/Menus";
 
 const NavBar = () => {
@@ -32,11 +32,10 @@ const NavBar = () => {
 						<li
 							key={link.name}
 							className="md:ml-8 text-xl md:my-0 my-7"
+							onClick={() => setOpen(false)}
 						>
 							<Link
 								to={link.link}
-								smooth={link.smooth}
-								duration={link.duration}
 								className="text-white hover:text-cyan-300 duration-500"
 							>
 								{link.name}

@@ -7,7 +7,7 @@ function Portfolio() {
 	return (
 		<section
 			id="portfolio"
-			className="py-16 px-10 md:px-20 w-full min-h-screen bg-[#07063d] text-blue-900 flex flex-col justify-center items-center"
+			className="py-16 px-10 md:px-20 w-full min-h-[calc(100vh-350px)] bg-[#07063d] text-blue-900 flex flex-col justify-center items-center"
 		>
 			<div
 				class="section-portfolio py-4 px-0"

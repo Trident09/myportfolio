@@ -2,7 +2,7 @@ import React from "react";
 
 function Services() {
 	return (
-		<div className="min-h-screen w-full bg-cyan-200 flex justify-center items-center">
+		<div className="min-h-screen w-full flex justify-center items-center">
 			Services
 		</div>
 	);

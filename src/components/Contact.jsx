@@ -5,8 +5,8 @@ import SocialIcons from "./footer/SocialIcons";
 
 function Contact() {
 	return (
-		<div className="antialiased bg-cyan-100">
-			<div className="flex w-full min-h-screen justify-center items-center">
+		<div className="antialiased py-4">
+			<div className="flex w-full min-h-[calc(100vh-350px)] justify-center items-center">
 				<div className="flex flex-col md:flex-row md:space-x-6 md:space-y-0 space-y-6 bg-cyan-700 w-full max-w-4xl p-8 sm:p-12 rounded-xl shadow-lg text-white overflow-hidden">
 					<div className="flex flex-col space-y-8 justify-between">
 						<div>
@@ -56,6 +56,7 @@ function Contact() {
 									<input
 										type="text"
 										placeholder="Your Name"
+										name="Name"
 										className="outline-1 outline-gray-300 w-full rounded-md px-4 py-2 m-2 outline-none focus:outline-2 focus:outline-teal-300"
 									/>
 								</div>
@@ -69,6 +70,7 @@ function Contact() {
 									<input
 										type="email"
 										placeholder="Email"
+										name="Email"
 										className="outline-1 outline-gray-300 w-full rounded-md px-4 py-2 m-2 outline-none focus:outline-2 focus:outline-teal-300"
 									/>
 								</div>
@@ -83,6 +85,7 @@ function Contact() {
 									<textarea
 										rows="4"
 										placeholder="Your Name"
+										name="Message"
 										className="outline-1 outline-gray-300 w-full rounded-md px-4 py-2 m-2 outline-none focus:outline-2 focus:outline-teal-300"
 									/>
 								</div>

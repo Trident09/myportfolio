@@ -5,6 +5,9 @@ import AboutButton from "./AboutButton";
 import ProjectCard from "./ProjectCard";
 
 function ProjectSection() {
+	// const portfolios = Array.parse(Portfolios);
+	const firstSixElements = Portfolios.slice(0, 6);
+
 	return (
 		<section
 			id="portfolio"
@@ -30,7 +33,7 @@ function ProjectSection() {
 					<AboutButton Texts={PortfolioBtns} />
 				</div>
 			</div>
-			<ProjectCard Projects={Portfolios} />
+			<ProjectCard Projects={firstSixElements} />
 		</section>
 	);
 }

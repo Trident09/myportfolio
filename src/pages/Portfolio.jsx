@@ -1,5 +1,5 @@
 import React from "react";
-import { PortfoliosAll } from "../Assets/Menus";
+import { Portfolios } from "../Assets/Menus";
 import ProjectCard from "../components/ProjectCard";
 import "../css/project-section.css";
 
@@ -25,7 +25,7 @@ function Portfolio() {
 					</p>
 				</div>
 			</div>
-			<ProjectCard Projects={PortfoliosAll} />
+			<ProjectCard Projects={Portfolios} />
 		</section>
 	);
 }

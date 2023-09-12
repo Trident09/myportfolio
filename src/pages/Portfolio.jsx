@@ -25,7 +25,7 @@ function Portfolio() {
 					</p>
 				</div>
 			</div>
-			<ProjectCard Projects={Portfolios} />
+			<ProjectCard Projects={Portfolios.reverse()} />
 		</section>
 	);
 }

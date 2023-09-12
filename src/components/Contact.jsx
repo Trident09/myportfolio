@@ -42,7 +42,7 @@ function Contact() {
 						<div className="absolute z-0 w-40 h-40 bg-teal-300 rounded-full -left-28 -bottom-16"></div>
 						<div className="relative z-10 bg-white rounded-xl shadow-lg p-8 text-gray-600 md:w-100">
 							<form
-								action="https://formsubmit.co/rupambarui17@gmail.com"
+								action="https://formsubmit.co/90228197fff37f7483fe4667fc5e75b7"
 								method="POST"
 								className="flex flex-col space-y-4"
 							>

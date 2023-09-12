@@ -42,17 +42,21 @@ function Contact() {
 						<div className="absolute z-0 w-40 h-40 bg-teal-300 rounded-full -left-28 -bottom-16"></div>
 						<div className="relative z-10 bg-white rounded-xl shadow-lg p-8 text-gray-600 md:w-100">
 							<form
-								action="#"
+								action="https://formsubmit.co/rupambarui17@gmail.com"
+								method="POST"
 								className="flex flex-col space-y-4"
 							>
+								<input type="hidden" name="_captcha" value="false" />
+								<input type="text" name="_honey" className="hidden" />
 								<div>
 									<label
-										htmlFor=""
+										htmlFor="name"
 										className="text-sm"
 									>
 										Your Name
 									</label>
 									<input
+										id="name"
 										type="text"
 										placeholder="Your Name"
 										name="Name"
@@ -61,12 +65,13 @@ function Contact() {
 								</div>
 								<div>
 									<label
-										htmlFor=""
+										htmlFor="email"
 										className="text-sm"
 									>
 										Your Email
 									</label>
 									<input
+										id="email"
 										type="email"
 										placeholder="Email"
 										name="Email"
@@ -75,12 +80,13 @@ function Contact() {
 								</div>
 								<div>
 									<label
-										htmlFor=""
+										htmlFor="subject"
 										className="text-sm"
 									>
-										Your Email
+										Subject
 									</label>
 									<input
+										id="subject"
 										type="text"
 										placeholder="Subject"
 										name="Subject"
@@ -89,13 +95,13 @@ function Contact() {
 								</div>
 								<div>
 									<label
-										htmlFor=""
+										htmlFor="message"
 										className="text-sm"
 									>
 										Message
 									</label>
-
 									<textarea
+										id="message"
 										rows="4"
 										placeholder="Your Name"
 										name="Message"

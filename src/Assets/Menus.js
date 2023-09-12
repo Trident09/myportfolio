@@ -1,10 +1,10 @@
 // Navbar data
 
 export const Links = [
-	{ name: "ABOUT", link: "/about" },
-	{ name: "RESOURCES", link: "/services" },
+	// { name: "ABOUT", link: "/about" },
+	// { name: "RESOURCES", link: "/services" },
 	{ name: "PROJECT", link: "/portfolio" },
-	{ name: "BLOG", link: "/" },
+	// { name: "BLOG", link: "/" },
 	{ name: "CONTACT", link: "/contact" },
 ];
 
@@ -108,24 +108,24 @@ export const AboutBtns = [
 		classbtn: "btn text-[skyblue]",
 		classp: "after:text-[skyblue]",
 	},
-	{
-		title: "Know More",
-		text: "Visit",
-		link: "/about",
-		target: "_self",
-		classbtn: "btn text-[skyblue]",
-		classp: "after:text-[skyblue]",
-	},
+	// {
+	// 	title: "Know More",
+	// 	text: "Visit",
+	// 	link: "/about",
+	// 	target: "_self",
+	// 	classbtn: "btn text-[skyblue]",
+	// 	classp: "after:text-[skyblue]",
+	// },
 ];
 export const ServiceBtns = [
-	{
-		title: "Know More",
-		text: "Visit",
-		link: "/services",
-		target: "_self",
-		classbtn: "btn text-blue-900",
-		classp: "after:text-blue-900",
-	},
+	// {
+	// 	title: "Know More",
+	// 	text: "Visit",
+	// 	link: "/services",
+	// 	target: "_self",
+	// 	classbtn: "btn text-blue-900",
+	// 	classp: "after:text-blue-900",
+	// },
 ];
 export const PortfolioBtns = [
 	{

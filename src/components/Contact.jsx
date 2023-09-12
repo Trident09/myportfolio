@@ -14,7 +14,9 @@ function Contact() {
 								Contact Me
 							</h1>
 							<p className="pt-2 text-cyan-100 text-sm max-w-sm">
-								If you have any questions or want to work with me, feel free to contact me. I will try to get back to you as soon as possible!<br/> THIS FORM IS NOT YET FUNCTIONAL.
+								If you have any questions or want to work with
+								me, feel free to contact me. I will try to get
+								back to you as soon as possible!
 							</p>
 						</div>
 						<div className="flex flex-col space-y-6">
@@ -46,8 +48,36 @@ function Contact() {
 								method="POST"
 								className="flex flex-col space-y-4"
 							>
-								<input type="hidden" name="_captcha" value="false" />
-								<input type="text" name="_honey" className="hidden" />
+								<input
+									type="hidden"
+									name="_captcha"
+									value="false"
+								/>
+								<input
+									type="text"
+									name="_honey"
+									className="hidden"
+								/>
+								<input
+									type="hidden"
+									name="_subject"
+									value="New Contact REQUEST from Portfolio"
+								/>
+								<input
+									type="hidden"
+									name="_next"
+									value="https://rupam.vercel.app/"
+								/>
+								<input
+									type="hidden"
+									name="_autoresponse"
+									value="I have received your email that you have submitted on my website rupam.vercel.app. I will be sure to reach you as soon as possible. Thanks, Peace."
+								/>
+								<input
+									type="hidden"
+									name="_template"
+									value="table"
+								/>
 								<div>
 									<label
 										htmlFor="name"

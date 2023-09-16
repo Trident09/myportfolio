@@ -201,11 +201,17 @@ export const Portfolios = [
 
 export const PesudoFormInputs = [
 	{ name: "_captcha", value: "false" },
-	{ name: "_subject", value: "New Contact REQUEST submission from Portfolio" },
+	{
+		name: "_subject",
+		value: "New Contact REQUEST submission from Portfolio",
+	},
 	{ name: "_next", value: "https://rupam.vercel.app/" },
-	{ name: "_autoresponse", value: "I have received your email that you have submitted on my website rupam.vercel.app. I will be sure to reach you as soon as possible. Thanks, Peace." },
+	{
+		name: "_autoresponse",
+		value: "I have received your email that you have submitted on my website rupam.vercel.app. I will be sure to reach you as soon as possible. Thanks, Peace.",
+	},
 	{ name: "_template", value: "table" },
-]
+];
 
 export const FormInputs = [
 	{
@@ -232,4 +238,4 @@ export const FormInputs = [
 		placeholder: "Subject",
 		name: "Subject",
 	},
-]
+];

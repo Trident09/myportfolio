@@ -62,20 +62,20 @@ function Contact() {
 								))}
 								{FormInputs.map((formInput) => (
 									<div>
-									<label
-										htmlFor={formInput.htmlfor}
-										className="text-sm"
-									>
-										{formInput.label}
-									</label>
-									<input
-										id={formInput.id}
-										type={formInput.type}
-										placeholder={formInput.placeholder}
-										name={formInput.name}
-										className="outline-1 outline-gray-300 w-full rounded-md px-4 py-2 m-2 outline-none focus:outline-2 focus:outline-teal-300"
-									/>
-								</div>
+										<label
+											htmlFor={formInput.htmlfor}
+											className="text-sm"
+										>
+											{formInput.label}
+										</label>
+										<input
+											id={formInput.id}
+											type={formInput.type}
+											placeholder={formInput.placeholder}
+											name={formInput.name}
+											className="outline-1 outline-gray-300 w-full rounded-md px-4 py-2 m-2 outline-none focus:outline-2 focus:outline-teal-300"
+										/>
+									</div>
 								))}
 								<div>
 									<label

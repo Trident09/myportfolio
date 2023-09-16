@@ -10,6 +10,7 @@ const ProjectCard = ({ Projects }) => {
 					<img
 						src={project.src}
 						alt={project.alt}
+						loading="lazy"
 					/>
 					<div class="card__content absolute w-full h-full top-0 left-0 p-5 bg-blue-300">
 						<p class="card__title m-0 text-xl text-[#07063d] font-bold">

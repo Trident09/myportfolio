@@ -18,13 +18,14 @@ function AboutSection() {
 								className="w-full h-full aspect-[9/16] object-cover relative z-10"
 								src="https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/Rupam-about.png"
 								alt="Rupam Barui"
+								loading="lazy"
 							/>
 						</div>
 						<div className="infoSection">
 							<h1 className="text-[#dedce1] text-3xl font-[helvetica] uppercase inline-block mb-1 relative">
 								About Me
 							</h1>
-							<h2 className="font-[helvetica] text-xl font-semibold text-[#787cd5] py-4 px-0 capitalise tracking-[1px]">
+							<h2 className="font-[helvetica] text-xl font-semibold text-cyan-300 py-4 px-0 capitalise tracking-[1px]">
 								Software developer & designer, currently going
 								through college
 							</h2>

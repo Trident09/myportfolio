@@ -1,5 +1,5 @@
 import React from "react";
-import { Icons } from "../Assets/Menus";
+import { FormInputs, Icons, PesudoFormInputs } from "../Assets/Menus";
 import "../css/contact-submit.css";
 import SocialIcons from "./footer/SocialIcons";
 
@@ -49,80 +49,34 @@ function Contact() {
 								className="flex flex-col space-y-4"
 							>
 								<input
-									type="hidden"
-									name="_captcha"
-									value="false"
-								/>
-								<input
 									type="text"
 									name="_honey"
 									className="hidden"
 								/>
-								<input
-									type="hidden"
-									name="_subject"
-									value="New Contact REQUEST from Portfolio"
-								/>
-								<input
-									type="hidden"
-									name="_next"
-									value="https://rupam.vercel.app/"
-								/>
-								<input
-									type="hidden"
-									name="_autoresponse"
-									value="I have received your email that you have submitted on my website rupam.vercel.app. I will be sure to reach you as soon as possible. Thanks, Peace."
-								/>
-								<input
-									type="hidden"
-									name="_template"
-									value="table"
-								/>
-								<div>
+								{PesudoFormInputs.map((pseudoInput) => (
+									<input
+										type="hidden"
+										name={pseudoInput.name}
+										value={pseudoInput.value}
+									/>
+								))}
+								{FormInputs.map((formInput) => (
+									<div>
 									<label
-										htmlFor="name"
+										htmlFor={formInput.htmlfor}
 										className="text-sm"
 									>
-										Your Name
+										{formInput.label}
 									</label>
 									<input
-										id="name"
-										type="text"
-										placeholder="Your Name"
-										name="Name"
+										id={formInput.id}
+										type={formInput.type}
+										placeholder={formInput.placeholder}
+										name={formInput.name}
 										className="outline-1 outline-gray-300 w-full rounded-md px-4 py-2 m-2 outline-none focus:outline-2 focus:outline-teal-300"
 									/>
 								</div>
-								<div>
-									<label
-										htmlFor="email"
-										className="text-sm"
-									>
-										Your Email
-									</label>
-									<input
-										id="email"
-										type="email"
-										placeholder="Email"
-										name="Email"
-										className="outline-1 outline-gray-300 w-full rounded-md px-4 py-2 m-2 outline-none focus:outline-2 focus:outline-teal-300"
-									/>
-								</div>
-								<div>
-									<label
-										htmlFor="subject"
-										className="text-sm"
-									>
-										Subject
-									</label>
-									<input
-										id="subject"
-										type="text"
-										placeholder="Subject"
-										name="Subject"
-										className="outline-1 outline-gray-300 w-full rounded-md px-4 py-2 m-2 outline-none focus:outline-2 focus:outline-teal-300"
-									/>
-								</div>
+								))}
 								<div>
 									<label
 										htmlFor="message"

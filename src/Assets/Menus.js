@@ -198,3 +198,38 @@ export const Portfolios = [
 		source: "https://github.com/Trident09/gcp-progress",
 	},
 ];
+
+export const PesudoFormInputs = [
+	{ name: "_captcha", value: "false" },
+	{ name: "_subject", value: "New Contact REQUEST submission from Portfolio" },
+	{ name: "_next", value: "https://rupam.vercel.app/" },
+	{ name: "_autoresponse", value: "I have received your email that you have submitted on my website rupam.vercel.app. I will be sure to reach you as soon as possible. Thanks, Peace." },
+	{ name: "_template", value: "table" },
+]
+
+export const FormInputs = [
+	{
+		htmlfor: "name",
+		label: "Your Name",
+		id: "name",
+		type: "text",
+		placeholder: "Your Name",
+		name: "Name",
+	},
+	{
+		htmlfor: "email",
+		label: "Your Email",
+		id: "email",
+		type: "email",
+		placeholder: "Your Email",
+		name: "Email",
+	},
+	{
+		htmlfor: "subject",
+		label: "Subject",
+		id: "subject",
+		type: "text",
+		placeholder: "Subject",
+		name: "Subject",
+	},
+]

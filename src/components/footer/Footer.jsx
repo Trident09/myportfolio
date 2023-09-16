@@ -15,7 +15,7 @@ const Footer = () => {
 				<div className="md:flex md:justify-between md:items-center sm:px-12 px-4 bg-[#ffffff19] py-7">
 					<h1 className="lg:text-4xl text-3xl md:mb-0 mb-6 lg:leading-normal font-semibold md:w-2/5">
 						Want to get in{" "}
-						<b className="text-cyan-400 hover:text-cyan-600 font-medium">
+						<b className="text-cyan-400 font-medium">
 							TOUCH
 						</b>
 						?

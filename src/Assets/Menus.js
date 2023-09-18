@@ -95,6 +95,10 @@ export const Icons = [
 		name: "logo-instagram",
 		link: "https://www.instagram.com/rup.am.i/",
 	},
+	{
+		name: "logo-youtube",
+		link: "https://www.youtube.com/@Rupam_Barui",
+	},
 ];
 
 // Buttons data

@@ -201,6 +201,14 @@ export const Portfolios = [
 		demo: "https://nfsu-gcp.vercel.app/",
 		source: "https://github.com/Trident09/gcp-progress",
 	},
+	{
+		name: "WHAT-TO-DO",
+		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/proj-todo.png",
+		alt: "TO-DO Application",
+		desc: "To-Do app in React and Tailwind for CRUD funtionality using firebase as a backend",
+		demo: "https://what-to-do-sandy.vercel.app/",
+		source: "https://github.com/Trident09/what-to-do",
+	},
 ];
 
 export const PesudoFormInputs = [

@@ -147,7 +147,7 @@ export const PortfolioBtns = [
 export const Portfolios = [
 	{
 		name: "Weather",
-		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/proj-weather.png",
+		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/ProjectImages/proj-weather.png",
 		alt: "Weather Forecast App",
 		desc: "Web application in React for weather forecast",
 		demo: "https://weather-trident09.vercel.app/",
@@ -155,15 +155,15 @@ export const Portfolios = [
 	},
 	{
 		name: "Con Currency",
-		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/proj-exchange.jpeg",
-		alt: "Currency Exchange Rate Calculator",
+		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/ProjectImages/proj-exchange.jpeg",
+		alt: "Exchange Rate Calculator",
 		desc: "Web app for currency conversion",
 		demo: "https://trident09.github.io/currency-converter/",
 		source: "https://github.com/Trident09/currency-converter/",
 	},
 	{
 		name: "Calculator",
-		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/proj-calculator.jpeg",
+		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/ProjectImages/proj-calculator.jpeg",
 		alt: "Calculator App",
 		desc: "this is a basic web app calculator",
 		demo: "https://trident09.github.io/Calculator/",
@@ -171,7 +171,7 @@ export const Portfolios = [
 	},
 	{
 		name: "Pass Gen",
-		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/proj-passgen.jpeg",
+		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/ProjectImages/proj-passgen.jpeg",
 		alt: "PassWord Generator",
 		desc: "Random password generator in Javascript",
 		demo: "https://trident09.github.io/PassWord-generator/",
@@ -179,7 +179,7 @@ export const Portfolios = [
 	},
 	{
 		name: "QR-ify",
-		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/proj-qr.png",
+		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/ProjectImages/proj-qr.png",
 		alt: "QR code Generator",
 		desc: "This is a QR code generator which turns links into QR codes",
 		demo: "https://trident09.github.io/QR-ify/",
@@ -187,7 +187,7 @@ export const Portfolios = [
 	},
 	{
 		name: "Hangman",
-		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/proj-hangman.jpeg",
+		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/ProjectImages/proj-hangman.jpeg",
 		alt: "Hangman Game",
 		desc: "game where you guess a word with a given hint",
 		demo: "https://trident09.github.io/Hangman/",
@@ -195,15 +195,15 @@ export const Portfolios = [
 	},
 	{
 		name: "GDSC NFSU GCP Progress Report",
-		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/proj-gcp-nfsu.png",
-		alt: "Progress Report for GDSC NFSU GCP",
+		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/ProjectImages/proj-gcp-nfsu.png",
+		alt: "Progress Report for Study Jam",
 		desc: "Website for tracking the progress in Google Cloud Study Jam - 2023",
 		demo: "https://nfsu-gcp.vercel.app/",
 		source: "https://github.com/Trident09/gcp-progress",
 	},
 	{
 		name: "WHAT-TO-DO",
-		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/proj-todo.png",
+		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/ProjectImages/proj-todo.png",
 		alt: "TO-DO Application",
 		desc: "To-Do app in React and Tailwind for CRUD funtionality using firebase as a backend",
 		demo: "https://what-to-do-sandy.vercel.app/",

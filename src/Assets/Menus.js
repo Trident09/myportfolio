@@ -202,12 +202,20 @@ export const Portfolios = [
 		source: "https://github.com/Trident09/gcp-progress",
 	},
 	{
-		name: "WHAT-TO-DO",
+		name: "WHAT TO DO",
 		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/ProjectImages/proj-todo.png",
 		alt: "TO-DO Application",
 		desc: "To-Do app in React and Tailwind for CRUD funtionality using firebase as a backend",
 		demo: "https://what-to-do-sandy.vercel.app/",
 		source: "https://github.com/Trident09/what-to-do",
+	},
+	{
+		name: "Chatter Box",
+		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/ProjectImages/proj-chat.png",
+		alt: "Public Chat room",
+		desc: "Chat Application using add and read database from firestore",
+		demo: "https://chatter-box-teal.vercel.app/",
+		source: "https://github.com/Trident09/chatter-box",
 	},
 ];
 

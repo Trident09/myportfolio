@@ -217,6 +217,14 @@ export const Portfolios = [
 		demo: "https://chatter-box-teal.vercel.app/",
 		source: "https://github.com/Trident09/chatter-box",
 	},
+	{
+		name: "Palettes",
+		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/ProjectImages/proj-palettes.png",
+		alt: "Color Palette Generator",
+		desc: "Color Palette Generator using JavaScript",
+		demo: "https://trident09.github.io/Palettes/",
+		source: "https://github.com/Trident09/Palettes",
+	},
 ];
 
 export const PesudoFormInputs = [

@@ -225,6 +225,14 @@ export const Portfolios = [
 		demo: "https://trident09.github.io/Palettes/",
 		source: "https://github.com/Trident09/Palettes",
 	},
+	{
+		name: "Flappy Bird",
+		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/ProjectImages/proj-flappy-bird.png",
+		alt: "Flappy Bird Game Made With Unity",
+		desc: "Flappy Bird Game Made With Unity",
+		demo: "https://github.com/Trident09/flappy-bird/releases",
+		source: "https://github.com/Trident09/flappy-bird",
+	},
 ];
 
 export const PesudoFormInputs = [

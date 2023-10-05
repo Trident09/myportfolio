@@ -12,7 +12,7 @@ const Footer = () => {
 		>
 			<Waves />
 			<div className="bg-gray-900">
-				<div className="md:flex md:justify-between md:items-center sm:px-12 px-4 bg-[#ffffff19] py-7">
+				<div className="md:flex md:justify-between md:items-center sm:px-12 px-4 bg-primary py-7">
 					<h1 className="lg:text-4xl text-3xl md:mb-0 mb-6 lg:leading-normal font-semibold md:w-2/5">
 						Want to get in{" "}
 						<b className="text-cyan-400 font-medium">

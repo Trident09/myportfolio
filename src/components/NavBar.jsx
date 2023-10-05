@@ -6,7 +6,7 @@ const NavBar = () => {
 	let [open, setOpen] = useState(false);
 	return (
 		<div className="z-40 shadow-md w-full fixed top-0 left-0">
-			<div className="md:flex items-center justify-between bg-black py-4 md:px-10 px-7">
+			<div className="md:flex items-center justify-between bg-primary py-4 md:px-10 px-7">
 				<div className="font-normal text-2xl flex items-center font-[Anton] text-white">
 					<span className="text-3xl text-white mr-1 pt-2">
 						<ion-icon name="aperture"></ion-icon>

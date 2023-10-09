@@ -235,7 +235,7 @@ export const Portfolios = [
 	},
 	{
 		name: "Planetary Tourism Office",
-		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/ProjectImages/proj-NASA-softonauts.png",
+		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/ProjectImages/proj-NASA-Softonauts.png",
 		alt: "Planetary Tourism Office",
 		desc: "A collaborative project For NASA Space Apps Challenges 2023 - Noida ( SOFTONAUTS, PLANETARY TOURISM OFFICE )",
 		demo: "https://tourismoffice.vercel.app/",

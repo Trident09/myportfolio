@@ -7,13 +7,13 @@ const NavBar = () => {
 	return (
 		<div className="z-40 shadow-md w-full fixed top-0 left-0">
 			<div className="md:flex items-center justify-between bg-midnight py-4 md:px-10 px-7">
-				<div className="font-normal text-2xl flex items-center font-[Anton] text-texts">
-					<span className="text-3xl text-important mr-1 pt-2">
+				<div className="font-normal text-2xl flex items-center font-[Anton] text-snow">
+					<span className="text-3xl text-action mr-1 pt-2">
 						<ion-icon name="aperture"></ion-icon>
 					</span>
 					<a href="/">
-						<span className="flex flex-row gap-1 hover:text-important cursor-pointer ">
-							Rupam <b className="text-important">B.</b>
+						<span className="flex flex-row gap-1 hover:text-action cursor-pointer ">
+							Rupam <b className="text-action">B.</b>
 						</span>
 					</a>
 				</div>
@@ -39,7 +39,7 @@ const NavBar = () => {
 						>
 							<Link
 								to={link.link}
-								className="text-snow hover:text-important duration-500 cursor-pointer"
+								className="text-snow hover:text-action duration-500 cursor-pointer"
 							>
 								{link.name}
 							</Link>

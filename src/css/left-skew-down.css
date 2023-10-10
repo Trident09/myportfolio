@@ -1,5 +1,5 @@
 .separator {
 	border-right: 100vw solid transparent;
-	border-bottom: 13.9vw solid #2b2a2f;
+	border-bottom: 13.9vw solid var(--color-secondary-bg);
 	transform: rotateX(180deg);
 }

@@ -8,20 +8,17 @@ const Footer = () => {
 	return (
 		<footer
 			id="footer"
-			className="text-white bg-blue-300"
+			className="text-snow"
 		>
 			<Waves />
-			<div className="bg-gray-900">
+			<div className="bg-secondarybg">
 				<div className="md:flex md:justify-between md:items-center sm:px-12 px-4 bg-primary py-7">
 					<h1 className="lg:text-4xl text-3xl md:mb-0 mb-6 lg:leading-normal font-semibold md:w-2/5">
 						Want to get in{" "}
-						<b className="text-cyan-400 font-medium">
-							TOUCH
-						</b>
-						?
+						<b className="text-action font-medium">TOUCH</b>?
 					</h1>
 					<div className="flex flex-col md:flex-row">
-						<button className="bg-cyan-400 hover:bg-cyan-500 duration-300 px-5 py-2.5 font-[Poppins] rounded-md text-[#07063d] md:w-max w-full h-max capitalize">
+						<button className="bg-action hover:opacity-80 duration-300 px-5 py-2.5 font-[Poppins] rounded-md text-[#07063d] md:w-max w-full h-max capitalize">
 							<Link to="/contact">CONTACT ME</Link>
 						</button>
 					</div>

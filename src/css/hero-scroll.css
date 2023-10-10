@@ -1,5 +1,5 @@
 .scrolldown {
-	--color: skyblue;
+	--color: var(--color-action);
 	--sizeX: 30px;
 	--sizeY: 50px;
 	border: calc(var(--sizeX) / 10) solid var(--color);

@@ -10,9 +10,12 @@
 		/* CSS HEX */
 		--color-midnight: #000000ff;
 		--color-bg: #07063dff;
-		--color-action: #87ceebff;
-		--color-important: #724be4ff;
+		--color-secondary-bg: #212b48;
+		--color-tertiary-bg: #539ed6;
+		--color-action: #724be4ff;
+		--color-important: #87ceebff;
 		--color-snow: #e5e5e5ff;
+		--color-dark-snow: #a0a0a0;
 	}
 
 	html {

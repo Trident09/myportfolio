@@ -6,7 +6,7 @@
 
 .imageSection {
 	grid-area: imageSect;
-	outline: 1px solid white;
+	outline: 1px solid var(--color-midnight);
 }
 
 .infoSection {
@@ -22,7 +22,7 @@
 	content: "";
 	width: 100%;
 	height: 100%;
-	outline: 3px solid rgb(103, 232 , 249);
+	outline: 3px solid var(--color-important);
 	top: 15px;
 	left: 15px;
 	z-index: 1;
@@ -35,7 +35,7 @@
 	height: 1px;
 	top: 110%;
 	left: 0;
-	background: #aaabb0;
+	background: var(--color-dark-snow);
 }
 
 .infoSection h1::after {
@@ -45,13 +45,13 @@
 	height: 3px;
 	top: calc(110% - 1px);
 	left: 0;
-	background: #1411a8;
+	background: var(--color-action);
 }
 
 .personalInfo {
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 10px 20px;
-	border-bottom: 1px solid #555;
+	border-bottom: 1px solid var(--color-dark-snow);
 }
 
 .personaInfo div {
@@ -64,16 +64,16 @@
 }
 
 .progress_bar {
-	border-top: 1px solid #000;
-	border-bottom: 1px solid #444;
+	border-top: 1px solid var(--color-bg);
+	border-bottom: 1px solid var(--color-dark-snow);
 }
 
 .progress_line {
 	position: relative;
 	width: 100%;
 	height: 100%;
-	background-color: rgb(8, 47, 155);
-	box-shadow: -1px 1px 2px #222222, 1px 1px 2px #111111;
+	background-color: var(--color-important);
+	box-shadow: -1px 1px 2px #222222, 1px 1px 2px var(--color-bg);
 	border-radius: 1rem;
 }
 

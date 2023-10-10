@@ -7,13 +7,13 @@ function Contact() {
 	return (
 		<div className="antialiased py-4">
 			<div className="flex w-full min-h-[calc(100vh-350px)] justify-center items-center">
-				<div className="flex flex-col md:flex-row md:space-x-6 md:space-y-0 space-y-6 bg-cyan-700 w-full max-w-4xl p-8 sm:p-12 rounded-xl shadow-lg text-white overflow-hidden">
+				<div className="flex flex-col md:flex-row md:space-x-6 md:space-y-0 space-y-6 bg-tertiarybg w-full max-w-4xl p-8 sm:p-12 rounded-xl shadow-lg text-secondarybg overflow-hidden">
 					<div className="flex flex-col space-y-8 justify-between py-20">
 						<div>
 							<h1 className="font-bold text-4xl tracking-wide">
 								Contact Me
 							</h1>
-							<p className="pt-2 text-cyan-100 text-sm max-w-sm">
+							<p className="pt-2 text-secondarybg text-sm max-w-sm">
 								If you have any questions or want to work with
 								me, feel free to contact me. I will try to get
 								back to you as soon as possible!
@@ -23,7 +23,7 @@ function Contact() {
 							<div className="inline-flex space-x-2 items-center">
 								<ion-icon
 									name="mail"
-									className="text-teal-300 text-xl"
+									className="text-action text-xl"
 								></ion-icon>
 								<span>rupambarui.17@gmail.com</span>
 							</div>
@@ -73,7 +73,7 @@ function Contact() {
 											type={formInput.type}
 											placeholder={formInput.placeholder}
 											name={formInput.name}
-											className="outline-1 outline-gray-300 w-full rounded-md px-4 py-2 m-2 outline-none focus:outline-2 focus:outline-teal-300"
+											className="outline-1 outline-darksnow w-full rounded-md px-4 py-2 m-2 outline-none focus:outline-2 focus:outline-action"
 										/>
 									</div>
 								))}
@@ -89,15 +89,15 @@ function Contact() {
 										rows="4"
 										placeholder="Your Name"
 										name="Message"
-										className="outline-1 outline-gray-300 w-full rounded-md px-4 py-2 m-2 outline-none focus:outline-2 focus:outline-teal-300"
+										className="outline-1 outline-gray-300 w-full rounded-md px-4 py-2 m-2 outline-none focus:outline-2 focus:outline-action"
 									/>
 								</div>
 								<button
-									className="contact__btn text-lg flex items-center justify-center text-white bg-cyan-400 hover:bg-cyan-300 py-1 uppercase rounded-3xl"
+									className="contact__btn text-lg flex items-center justify-center text-white bg-action hover:opacity-90 py-1 uppercase rounded-3xl"
 									type="submit"
 								>
 									<div className="svg-wrapper-1 hover:bg-cyan-300">
-										<div className="svg-wrapper bg-cyan-400 hover:bg-cyan-100 flex items-center justify-center w-[30px] h-[30px] rounded-[50%] mr-[0.5em]">
+										<div className="svg-wrapper bg-action hover:bg-cyan-100 flex items-center justify-center w-[30px] h-[30px] rounded-[50%] mr-[0.5em]">
 											<svg
 												xmlns="http://www.w3.org/2000/svg"
 												viewBox="0 0 24 24"

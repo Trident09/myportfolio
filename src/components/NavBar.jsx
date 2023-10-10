@@ -6,25 +6,28 @@ const NavBar = () => {
 	let [open, setOpen] = useState(false);
 	return (
 		<div className="z-40 shadow-md w-full fixed top-0 left-0">
-			<div className="md:flex items-center justify-between bg-primary py-4 md:px-10 px-7">
-				<div className="font-normal text-2xl flex items-center font-[Anton] text-white">
-					<span className="text-3xl text-white mr-1 pt-2">
+			<div className="md:flex items-center justify-between bg-midnight py-4 md:px-10 px-7">
+				<div className="font-normal text-2xl flex items-center font-[Anton] text-texts">
+					<span className="text-3xl text-important mr-1 pt-2">
 						<ion-icon name="aperture"></ion-icon>
 					</span>
 					<a href="/">
-						<span className="flex flex-row gap-1 hover:text-cyan-300 cursor-pointer ">
-							Rupam <b className="text-cyan-300">B.</b>
+						<span className="flex flex-row gap-1 hover:text-important cursor-pointer ">
+							Rupam <b className="text-important">B.</b>
 						</span>
 					</a>
 				</div>
 				<div
 					onClick={() => setOpen(!open)}
-					className="text-white text-3xl absolute right-8 top-6 cursor-pointer md:hidden"
+					className="text-snow text-3xl absolute right-8 top-6 cursor-pointer md:hidden"
 				>
-					<ion-icon name={open ? "close" : "menu"}></ion-icon>
+					<ion-icon
+						name={open ? "close" : "menu"}
+						className="cursor-pointer text-snow hover:text-imps"
+					></ion-icon>
 				</div>
 				<ul
-					className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-black md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
+					className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-midnight md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
 						open ? "top-20 " : "top-[-490px]"
 					}`}
 				>
@@ -36,7 +39,7 @@ const NavBar = () => {
 						>
 							<Link
 								to={link.link}
-								className="text-white hover:text-cyan-300 duration-500"
+								className="text-snow hover:text-important duration-500 cursor-pointer"
 							>
 								{link.name}
 							</Link>

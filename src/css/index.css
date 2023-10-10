@@ -6,11 +6,21 @@
 @tailwind utilities;
 
 @layer base {
+	:root {
+		/* CSS HEX */
+		--color-midnight: #000000ff;
+		--color-bg: #07063dff;
+		--color-action: #87ceebff;
+		--color-important: #724be4ff;
+		--color-snow: #e5e5e5ff;
+	}
+
 	html {
 		font-family: "Montserrat", sans-serif;
-		background: #11212d;
+		background: var(--color-bg);
 		margin: 0;
 		padding: 0;
 		box-sizing: border-box;
+		color: var(--color-snow);
 	}
 }

@@ -11,7 +11,7 @@ function ProjectSection() {
 	return (
 		<section
 			id="portfolio"
-			className="py-16 px-10 md:px-20 w-full min-h-screen bg-transparent text-bg flex flex-col justify-center items-center"
+			className="py-16 px-10 md:px-20 w-full min-h-[calc(100vh - 300px)] bg-transparent text-bg flex flex-col justify-center items-center"
 		>
 			<div
 				class="section-portfolio py-4 px-0"

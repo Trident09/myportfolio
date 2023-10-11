@@ -194,14 +194,6 @@ export const Portfolios = [
 		source: "https://github.com/Trident09/Hangman/",
 	},
 	{
-		name: "GDSC NFSU GCP Progress Report",
-		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/ProjectImages/proj-gcp-nfsu.png",
-		alt: "Progress Report for Study Jam",
-		desc: "Website for tracking the progress in Google Cloud Study Jam - 2023",
-		demo: "https://nfsu-gcp.vercel.app/",
-		source: "https://github.com/Trident09/gcp-progress",
-	},
-	{
 		name: "WHAT TO DO",
 		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/ProjectImages/proj-todo.png",
 		alt: "TO-DO Application",
@@ -232,6 +224,14 @@ export const Portfolios = [
 		desc: "Flappy Bird Game Made With Unity",
 		demo: "https://github.com/Trident09/flappy-bird/releases",
 		source: "https://github.com/Trident09/flappy-bird",
+	},
+	{
+		name: "GDSC NFSU GCP Progress Report",
+		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/ProjectImages/proj-gcp-nfsu.png",
+		alt: "Progress Report for Study Jam",
+		desc: "Website for tracking the progress in Google Cloud Study Jam - 2023",
+		demo: "https://nfsu-gcp.vercel.app/",
+		source: "https://github.com/Trident09/gcp-progress",
 	},
 	{
 		name: "Planetary Tourism Office",

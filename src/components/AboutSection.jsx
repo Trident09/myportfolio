@@ -1,5 +1,6 @@
 import React from "react";
 import { AboutBtns, Abouts, Details, Skills } from "../Assets/Menus";
+import aboutImage from "../Assets/Rupam-about.png";
 import "../css/about-section.css";
 import AboutButton from "./AboutButton";
 import LeftSkewDown from "./LeftSkewDown";
@@ -16,7 +17,7 @@ function AboutSection() {
 						<div className="imageSection relative aspect-[9/16] min-w-[300px] h-[380px]">
 							<img
 								className="w-full h-full aspect-[9/16] object-cover relative z-10"
-								src="https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/Rupam-about.png"
+								src={aboutImage}
 								alt="Rupam Barui"
 								loading="lazy"
 							/>

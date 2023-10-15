@@ -226,6 +226,14 @@ export const Portfolios = [
 		source: "https://github.com/Trident09/flappy-bird",
 	},
 	{
+		name: "Draw Zone",
+		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/ProjectImages/proj-draw.png",
+		alt: "Drawing App",
+		desc: "Drawing App using Canvas",
+		demo: "https://trident09.github.io/draw-zone/",
+		source: "https://github.com/Trident09/draw-zone",
+	},
+	{
 		name: "GDSC NFSU GCP Progress Report",
 		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/ProjectImages/proj-gcp-nfsu.png",
 		alt: "Progress Report for Study Jam",

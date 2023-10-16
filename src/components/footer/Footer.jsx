@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Icons } from "../../Assets/Menus";
+import { FooterCSS } from "../../css/stylesheet";
 import SocialIcons from "./SocialIcons";
 import Waves from "./Waves";
 
@@ -8,22 +9,22 @@ const Footer = () => {
 	return (
 		<footer
 			id="footer"
-			className="text-snow"
+			className={FooterCSS.footer}
 		>
 			<Waves />
-			<div className="bg-secondarybg">
-				<div className="md:flex md:justify-between md:items-center sm:px-12 px-4 bg-primary py-7">
-					<h1 className="lg:text-4xl text-3xl md:mb-0 mb-6 lg:leading-normal font-semibold md:w-2/5">
+			<div className={FooterCSS.footerWrapper}>
+				<div className={FooterCSS.footerContainer}>
+					<h1 className={FooterCSS.footerHeading}>
 						Want to get in{" "}
-						<b className="text-action font-medium">TOUCH</b>?
+						<b className={FooterCSS.footerImp}>TOUCH</b>?
 					</h1>
-					<div className="flex flex-col md:flex-row">
-						<button className="bg-action hover:opacity-80 duration-300 px-5 py-2.5 font-[Poppins] rounded-md text-[#07063d] md:w-max w-full h-max capitalize">
+					<div className={FooterCSS.buttonContainer}>
+						<button className={FooterCSS.actionButton}>
 							<Link to="/contact">CONTACT ME</Link>
 						</button>
 					</div>
 				</div>
-				<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 text-center pt-2 text-gray-400 text-sm pb-8">
+				<div className={FooterCSS.linksContainer}>
 					<span>© 2023. All rights reserved.</span>
 					<span>
 						Made with <ion-icon name="heart"></ion-icon> · Rupam

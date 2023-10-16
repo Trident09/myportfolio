@@ -32,28 +32,30 @@ This is my personal portfolio website built using React, Tailwind CSS, and some 
 
 ## Project Structure
 
-├── src \
-│ ├── components \
-│ │ ├── Components for all the sections of the website \
-│ ├── pages \
-│ │ ├── All the pages template \
-| ├── CSS \
-│ │ ├── CSS for all the sections of the website \
-| ├── Assets \
-│ │ ├── All images and Media files with all the json arrays \
-│ ├── App.js \
-│ ├── index.js \
-│ ├── Layout.js \
-├── public \
-│ ├── index.html \
-│ ├── favicon \
-│ | ├── All favicons \
-├── README.md \
-├── LICENSE \
-├── Code of Conduct \
-├── package.json \
-├── tailwind.config.js \
-├── .gitignore \
+```
+├── src 
+│ ├── components 
+│ │ ├── Components for all the sections of the website 
+│ ├── pages 
+│ │ ├── All the pages template 
+│ ├── CSS 
+│ │ ├── CSS for all the sections of the website 
+│ ├── assets 
+│ │ ├── All images and Media files with all the json arrays 
+│ ├── App.js 
+│ ├── index.js 
+│ ├── Layout.js 
+├── public 
+│ ├── index.html 
+│ ├── favicon 
+│ │ ├── favicon 
+├── README.md 
+├── LICENSE 
+├── Code of Conduct 
+├── package.json 
+├── tailwind.config.js 
+├── .gitignore 
+```
 
 -   The `src` directory contains all the source code for the website.
 -   The `components` directory contains reusable components used in different sections of the website.

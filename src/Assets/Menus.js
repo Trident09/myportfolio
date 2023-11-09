@@ -249,6 +249,14 @@ export const Portfolios = [
 		demo: "https://tourismoffice.vercel.app/",
 		source: "https://github.com/Trident09/planetary_tourism_office",
 	},
+	{
+		name: "Editee",
+		src: "https://raw.githubusercontent.com/Trident09/myportfolio/main/src/Assets/ProjectImages/proj-edit.png",
+		alt: "Image Editor",
+		desc: "Online image editor with basic functions",
+		demo: "https://trident09.github.io/editee/",
+		source: "https://github.com/Trident09/editee",
+	},
 ];
 
 export const PesudoFormInputs = [
